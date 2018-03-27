@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        />
+
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textSize="46sp"
+        android:textColor="#FF9800"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Question"
+        android:text="Q"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <RadioButton
+        android:id="@+id/A0"
+        android:onClick="A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option A"
+        android:layout_margin="8dp"
+        android:textSize="24sp"/>
+
+    <RadioButton
+        android:id="@+id/A1"
+        android:onClick="B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option B"
+        android:layout_margin="8dp"
+        android:textSize="24sp"/>
+
+    <RadioButton
+        android:id="@+id/A2"
+        android:onClick="C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option C"
+        android:layout_margin="8dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:background="#FF9800"/>
+
+
+</LinearLayout>
